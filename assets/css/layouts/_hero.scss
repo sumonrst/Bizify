@@ -1,0 +1,111 @@
+/* 2. Hero CSS Start */ 
+.header_hero {
+    background-color: #172829;
+    padding-top: 240px;
+    padding-bottom: 120px;
+    .hero_right_content{
+        height: 100%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            color: #fff;
+            font-size: 92px;
+            line-height: 105px;
+            font-weight: 800;
+        }
+        p {
+            font-size: 18px;
+            max-width: 636px;
+            margin-bottom: 40px;
+            margin-top: 15px;
+        }
+        .hero-riht-video{
+            display: flex;
+            gap: 47px;
+            align-items: center;
+            .single-item {
+                a {
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                }
+                .btn-primary {
+                    color: #fff;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    background-color: #84A17D;
+                    padding: 15px 28px;
+                    border-radius: 10px;
+                    border: 1px solid #84A17D;
+                }
+                .btn-video i {
+                    color: #fff;
+                    background-color: #153C3C;
+                    width: 55px;
+                    height: 55px;
+                    line-height: 55px;
+                    text-align: center;
+                    border-radius: 50%;
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+    .hero_left_image {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        .hero_image{
+            img {
+                height: 608px;
+                border-radius: 20px;
+            }
+        }
+        .single-customer {
+            display: flex;
+            background-color: #fff;
+            position: absolute;
+            margin-top: -141px;
+            border-radius: 10px;
+            align-items: center;
+            padding: 20px 30px;
+            gap: 28px;
+            margin-left: -53px;
+            h4 {
+                color: #282943;
+                span {
+                    display: block;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    color: #6A7678;
+                    font-weight: 600;
+                    margin-top: 5px;
+                }
+            }
+            img {
+                width: 58px;
+                height: 58px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
