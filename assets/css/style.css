@@ -304,6 +304,19 @@ span {
   margin-bottom: 100px;
 }
 
+/* Common CSS Start */
+.btn-primary {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: #84A17D;
+  padding: 15px 28px;
+  border-radius: 10px;
+  border: 1px solid #84A17D;
+  display: inline-block;
+}
+
 /* 1. Header Top CSS Start */
 .headertop__addres {
   display: flex;
@@ -471,7 +484,7 @@ span {
 }
 .header_hero .hero_left_image .hero_image img {
   height: 608px;
-  border-radius: 20px;
+  border-radius: 17px;
 }
 .header_hero .hero_left_image .single-customer {
   display: flex;
@@ -525,12 +538,56 @@ span {
   color: #fff;
   font-weight: 700;
 }
-.what-we-do-area .our-work .single-work h4:hover {
-  color: tomato;
-}
 .what-we-do-area .our-work .single-work h4 span {
   display: block;
   font-size: 17px;
   color: #fff;
   font-weight: normal !important;
+}
+
+/* 4. About Us CSS Start */
+.about__area__about-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  justify-content: center;
+}
+.about__area__title {
+  font-size: 66px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.about__area__desc {
+  font-size: 20px;
+  color: #5c5959;
+}
+.about__area__about-img {
+  border-radius: 17px;
+}
+.about__area__about-work-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.about__area__work-item {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.about__area__work-item i {
+  font-size: 25px;
+  margin-right: 15px;
+}
+.about__area__btn-primary {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-color: #84A17D;
+  padding: 16px 33px;
+  border-radius: 10px;
+  border: 1px solid #84A17D;
+  display: inline-block;
+  margin-top: 33px;
 }/*# sourceMappingURL=style.css.map */

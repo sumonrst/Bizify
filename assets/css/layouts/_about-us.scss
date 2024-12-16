@@ -1,0 +1,59 @@
+
+/* 4. About Us CSS Start */ 
+.about__area{
+    &__about-content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        justify-content: center;
+    }
+    &__title {
+        font-size: 66px;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    &__desc {
+        font-size: 20px;
+        color: #5c5959;
+    }
+    &__about-img {
+        border-radius: 17px;
+    }
+    &__about-work-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+    &__work-item {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    &__work-item i {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+    &__btn-primary {
+        color: #fff;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 600;
+        background-color: #84A17D;
+        padding: 16px 33px;
+        border-radius: 10px;
+        border: 1px solid #84A17D;
+        display: inline-block;
+        margin-top: 33px;
+    }
+}
+
+
+
+
+  
+
+
+
+
+
