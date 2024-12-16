@@ -320,7 +320,7 @@ span {
 }
 
 .heade-menu-area .menu-bg {
-  background-color: tomato;
+  background-color: #fff;
   border-radius: 10px;
 }
 .heade-menu-area .btn-primary {
@@ -359,20 +359,19 @@ span {
   outline: none;
   border-radius: 25px;
   transition: all 0.5s ease-in-out;
-  background-color: #22a6b3;
   padding-right: 40px;
-  color: #fff;
+  background-color: transparent !important;
 }
 
 .input-search::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
 }
 
 .input-search::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: #000;
   font-size: 18px;
   letter-spacing: 2px;
   font-weight: 100;
@@ -389,23 +388,20 @@ span {
   border-radius: 50%;
   position: absolute;
   right: 0px;
-  color: #ffffff;
-  background-color: transparent;
+  background-color: transparent !important;
   pointer-events: painted;
 }
 
 .btn-search:focus ~ .input-search {
   width: 300px;
   border-radius: 0px;
-  background-color: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(23, 23, 23, 0.5);
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
 
 .input-search:focus {
   width: 300px;
   border-radius: 0px;
-  background-color: transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
 }
@@ -502,4 +498,39 @@ span {
 .header_hero .hero_left_image .single-customer img {
   width: 58px;
   height: 58px;
+}
+
+/* 3. What we do CSS Start */
+.what-we-do-area {
+  background-color: #84A17D;
+}
+.what-we-do-area .our-work {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.what-we-do-area .our-work .single-work {
+  display: flex;
+  gap: 32px;
+}
+.what-we-do-area .our-work .single-work .single-icon i {
+  font-size: 38px;
+  background-color: #fff;
+  padding: 23px;
+  border-radius: 7px;
+}
+.what-we-do-area .our-work .single-work h4 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+}
+.what-we-do-area .our-work .single-work h4:hover {
+  color: tomato;
+}
+.what-we-do-area .our-work .single-work h4 span {
+  display: block;
+  font-size: 17px;
+  color: #fff;
+  font-weight: normal !important;
 }/*# sourceMappingURL=style.css.map */

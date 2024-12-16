@@ -1,0 +1,40 @@
+
+/* 3. What we do CSS Start */ 
+.what-we-do-area{
+    background-color: #84A17D;
+    .our-work {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        .single-work {
+            display: flex;
+            gap: 32px;
+            .single-icon {
+                i {
+                    font-size: 38px;
+                    background-color: #fff;
+                    padding: 23px;
+                    border-radius:7px;
+                }
+            }
+            h4 {
+                font-size: 22px;
+                color: #fff;
+                font-weight: 700;
+                &:hover {
+                    color: tomato;
+                }
+                span {
+                    display: block;
+                    font-size: 17px;
+                    color: #fff;
+                    font-weight: normal !important;
+                }
+            }
+        }
+    }
+}
+
+
+
