@@ -580,6 +580,30 @@ span {
 .about__area__about-img {
   border-radius: 17px;
 }
+.about__area__success-rate {
+  display: flex;
+  flex-direction: row;
+  background-color: #84A17D;
+  width: 233px;
+  margin-top: -165px;
+  position: absolute;
+  padding: 25px 0;
+  align-items: center;
+  gap: 16px;
+  padding-left: 28px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+.about__area__success-image {
+  width: 60px;
+  height: auto;
+}
+.about__area__success-rate-title {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: normal;
+}
 .about__area__about-work-list {
   display: flex;
   flex-direction: column;
