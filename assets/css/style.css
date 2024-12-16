@@ -562,13 +562,28 @@ span {
   font-size: 20px;
   color: #5c5959;
 }
+.about__area__about-image {
+  position: relative;
+  z-index: 5;
+}
+.about__area__about-image:before {
+  position: absolute;
+  content: "";
+  background-color: #F4F5F6;
+  width: 59%;
+  height: 50%;
+  bottom: -46px;
+  border-radius: 9px;
+  left: -44px;
+  z-index: -1;
+}
 .about__area__about-img {
   border-radius: 17px;
 }
 .about__area__about-work-list {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 15px;
 }
 .about__area__work-item {
   font-size: 20px;
