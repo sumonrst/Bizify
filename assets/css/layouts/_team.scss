@@ -1,0 +1,79 @@
+/* 9. Latest Project CSS Start */ 
+
+.team_area{
+    &__title {
+        line-height: 66px;
+        font-size: 60px;
+        color: #282943;
+        font-weight: 800;
+    }
+    &__title::first-letter {
+        text-transform: uppercase;
+    }
+    &__team {
+        border: 17px solid #F4F5F6;
+        border-radius: 15px;
+        position: relative;
+        overflow: hidden;
+        transition: 1s ease;
+    }
+    &__team:hover .team_area__team-content {
+        margin-bottom: 0;
+        transition: 1s ease;
+    }
+    &__team-content {
+        background-color: #F4F5F6;
+        padding: 20px 0;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        margin-bottom: -67px;
+        transition: 1s ease;
+    }
+    &__team-title {
+        font-size: 28px;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    &__team-sub-title {
+        display: block;
+        font-weight: normal;
+        font-size: 17px;
+        margin: 16px;
+    }
+    &__team-social {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    &__single-social {
+        background-color: #fff;
+        padding: 10px 13px;
+        text-align: center;
+    }
+    &__single-social:hover {
+        background-color: #84A17D;
+        transition: .3s;
+    }
+    &__single-social:hover .team_area__team-link {
+        color: #fff;
+        transition: .3s;
+    }
+    &__team-link {
+        text-transform: uppercase;
+    }
+    &__single-team {
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    }
+}
+
+
+
+
+

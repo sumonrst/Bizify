@@ -785,4 +785,157 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* 8. Latest Project CSS Start */
+.latest_project {
+  background-color: #F4F5F6;
+}
+
+.latest_project__title {
+  line-height: 66px;
+  font-size: 60px;
+  color: #282943;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.latest_project__single-latest-project {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.latest_project-latest-project-slide {
+  display: flex;
+  gap: 20px;
+}
+
+.latest_project__icon {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: #84A17D;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 8px;
+  transform: translateX(-50%);
+}
+
+.latest_project__latest-title {
+  color: #fff;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.latest_project__icon i {
+  font-size: 26px;
+  rotate: -50deg;
+  color: #fff;
+}
+
+.latest_project__single-latest-project:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  top: 0;
+  left: 0;
+  opacity: 0.75;
+}
+
+.latest_project__latest-content {
+  z-index: 5;
+}
+
+.latest_project__latest-sub-title {
+  color: #fff;
+}
+
+.latest_project__latest-sub-title {
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+/* 9. Latest Project CSS Start */
+.team_area__title {
+  line-height: 66px;
+  font-size: 60px;
+  color: #282943;
+  font-weight: 800;
+}
+.team_area__title::first-letter {
+  text-transform: uppercase;
+}
+.team_area__team {
+  border: 17px solid #F4F5F6;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: 1s ease;
+}
+.team_area__team:hover .team_area__team-content {
+  margin-bottom: 0;
+  transition: 1s ease;
+}
+.team_area__team-content {
+  background-color: #F4F5F6;
+  padding: 20px 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-bottom: -67px;
+  transition: 1s ease;
+}
+.team_area__team-title {
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.team_area__team-sub-title {
+  display: block;
+  font-weight: normal;
+  font-size: 17px;
+  margin: 16px;
+}
+.team_area__team-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.team_area__single-social {
+  background-color: #fff;
+  padding: 10px 13px;
+  text-align: center;
+}
+.team_area__single-social:hover {
+  background-color: #84A17D;
+  transition: 0.3s;
+}
+.team_area__single-social:hover .team_area__team-link {
+  color: #fff;
+  transition: 0.3s;
+}
+.team_area__team-link {
+  text-transform: uppercase;
+}
+.team_area__single-team {
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
