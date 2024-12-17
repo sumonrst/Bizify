@@ -54,10 +54,14 @@
         height: auto;
     }
     &__success-rate-title {
-        font-size: 18px;
+        font-size: 32px;
         color: #fff;
         text-transform: capitalize;
-        font-weight: normal;
+        font-weight: 800;
+    }
+    &__success-rate-text {
+        display: block;
+        font-size: 17px;
     }
     &__about-work-list {
         display: flex;
