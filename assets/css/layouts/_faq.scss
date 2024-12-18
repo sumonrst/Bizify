@@ -58,5 +58,17 @@
     text-transform: capitalize;
   }
 
+  .faq_area__accro-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .accordion-button {
+	padding: 0 20px !important;
+	height: 70px;
+}
+
 
 

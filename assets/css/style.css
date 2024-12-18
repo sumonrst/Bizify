@@ -1215,4 +1215,29 @@ span {
 .faq_area__contact-title {
   font-size: 28px;
   text-transform: capitalize;
+}
+
+.faq_area__accro-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordion-button {
+  padding: 0 20px !important;
+  height: 70px;
+}
+
+/* 14. Blog CSS Start */
+.blog_area {
+  background-color: #F4F5F6;
+}
+.blog_area__title {
+  line-height: 66px;
+  font-size: 60px;
+  color: #282943;
+  font-weight: 800;
+}
+.blog_area__title::first-letter {
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

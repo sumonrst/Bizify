@@ -1,0 +1,17 @@
+/* 14. Blog CSS Start */ 
+
+.blog_area{
+    background-color: #F4F5F6;
+    &__title {
+        line-height: 66px;
+        font-size: 60px;
+        color: #282943;
+        font-weight: 800;
+    }
+    &__title::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+
+
