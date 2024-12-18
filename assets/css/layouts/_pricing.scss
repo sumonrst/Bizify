@@ -1,0 +1,112 @@
+
+/* 11. Pricing CSS Start */ 
+
+.pricing_area{
+    &__title {
+        line-height: 66px;
+        font-size: 60px;
+        color: #282943;
+        font-weight: 800;
+    }
+    &__title::first-letter {
+        text-transform: uppercase;
+    } 
+    &__single-pricing {
+        background-color: #F4F5F6;
+        padding: 45px 30px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+        transition: .3s;
+    }
+    &__single-pricing:hover {
+        background: linear-gradient(130deg, transparent 65%, $primary 100%);
+        transition: .3s;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    }
+    &__pricing-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 28px;
+    }
+    &__pricing-top-title {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+      &__pricing-top-sub-title {
+        font-weight: normal;
+        font-size: 17px;
+        color: #4f4d4d;
+        display: block;
+    }
+    &__pricing-top-value {
+        text-align: center;
+      }
+      &__value-sub-title {
+        display: block;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+    &__value-title {
+        background-color: #fff;
+        padding: 22px 18px 12px 18px;
+        border-radius: 8px;
+        transition: .3s;
+    }
+    &__single-pricing:hover .pricing_area__value-title {
+        background-color: $primary;
+        color: #fff;
+        transition: .3s;
+    }
+    &__pricing-list {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        padding: 0;
+    }
+    &__pricing-item {
+        font-size: 19px;
+        color: #3e3e3e;
+    }
+    &__pricing-item i {
+        margin-right: 13px;
+        font-size: 23px;
+        color: $primary;
+    }
+    &__pricing-btn-link {
+        background-color: #172426;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 13px 32px;
+        border-radius: 7px;
+        border: 1px solid #172426;
+        transition: .3s;
+    }
+    &__single-pricing:hover .pricing_area__pricing-btn-link {
+        background-color: $primary;
+        transition: .3s;
+        border: 1px solid $primary;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
