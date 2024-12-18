@@ -1,0 +1,94 @@
+/* 12. Testimonial CSS Start */ 
+
+.testimonial_area{
+    background-color: $section-bg;
+    &__title{
+        line-height: 66px;
+        font-size: 60px;
+        color: $title-white;
+        font-weight: 800;
+    }
+    &__title::first-letter {
+        text-transform: uppercase;
+    }
+    &__testimonial-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__testimonial-top-btn {
+        color: #fff;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 600;
+        background-color: #84A17D;
+        padding: 16px 33px;
+        border-radius: 10px;
+        border: 1px solid #84A17D;
+        display: inline-block;
+        margin-top: 33px;
+    }
+    
+
+
+
+
+
+}
+
+
+
+.testimonial_area__single-testimonial {
+	display: flex;
+	flex-direction: column;
+	height: 570px;
+	justify-content: center;
+}
+
+.testimonial_area__img {
+    height: 570px;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  
+
+  .testimonial_area__testimonial-content i {
+    font-size: 60px;
+    color: #fff;
+  }
+  .testimonial_area__testimonial-content {
+    color: #fff;
+  }
+
+
+
+
+  .testimonial_area__testimonial-p {
+    font-size: 23px;
+    line-height: 34px;
+    margin: 30px 0;
+  }
+  .testimonial_area__review-rating-list {
+    display: flex;
+    gap: 10px;
+    color: #ECB014;
+  }
+  .testimonial_area__testimonial-rating {
+    margin-top: 35px;
+  }
+  .testimonial_area__client-name {
+    color: #fff;
+    font-size: 27px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 12px;
+  }
+  .testimonial_area__client-desig {
+    display: block;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 7px;
+  }
+
+
