@@ -1,0 +1,127 @@
+
+/* 15. Blog CSS Start */ 
+
+
+.footer_area {
+	background-color: #153C3C;
+    &__desc {
+        color: #fff;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 22px;
+        max-width: 316px;
+    }
+    &__link {
+        color: #333;
+        padding: 3px;
+        transition: .3s;
+    }
+    &__link i {
+        background-color: #fff;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border-radius: 7px;
+    }
+    &__link i:hover {
+        background-color: #84A17D;
+        color: #fff;
+        transition: .3s;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_area__footer-newsletter-form {
+    position: relative;
+  }
+  .footer_area__footer-newsletter-form input {
+    padding: 18px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+  }
+  .footer_area__footer-newsletter-form input:focus {
+    outline: none;
+  }
+  .footer_area__footer-newsletter-form button {
+    position: absolute;
+    background-color: #84A17D;
+    padding: 8px 23px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    right: 8px;
+    top: 9px;
+    transition: .3s;
+  }
+  .footer_area__footer-newsletter-form button:hover {
+    background-color: #153C3C;
+    color: #fff;
+    transition: .3s;
+  }
+  
+.footer_area__footer-newsletter-form {
+    position: relative;
+  }
+  .footer_area__footer-newsletter-form input {
+    padding: 18px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+  }
+  .footer_area__footer-newsletter-form input:focus {
+    outline: none;
+  }
+  .footer_area__footer-newsletter-form button {
+    position: absolute;
+    background-color: #84A17D;
+    padding: 8px 23px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    right: 8px;
+    top: 9px;
+    transition: .3s;
+  }
+  .footer_area__footer-newsletter-form button:hover {
+    background-color: #153C3C;
+    color: #fff;
+    transition: .3s;
+  }
+  .footer_area__footer-title {
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 38px;
+  }
+  .footer_area__menu-list li a {
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+
+  .footer_area__menu-item {
+    padding: 7px 0;
+  }
+  .footer_area__footer-news-desc {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 337px;
+  }
+  .footer_area__footer-newsletter-form {
+    margin-top: 41px;
+  }
+

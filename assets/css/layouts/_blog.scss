@@ -11,7 +11,61 @@
     &__title::first-letter {
         text-transform: uppercase;
     }
+    &__single-blog {
+        background-color: #fff;
+        border-radius: 18px;
+    }
+    &__image {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+    &__blog-content {
+        padding: 25px;
+    }
+    &__cat-name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        color: #666565;
+        text-transform: capitalize;
+        font-size: 17px;
+    }
+    &__cat-name i {
+        font-size: 7px;
+        color: #666565;
+    }
+    &__blog-title {
+        font-size: 24px;
+        line-height: 27px;
+        font-weight: 700;
+        margin: 12px 0;
+        color: #282943;
+    }
+    &__btn-link {
+        color: #84A17D;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    &__date {
+        font-size: 17px;
+        text-transform: capitalize;
+        color: #666565;
+    }
+
 }
+
+
+
+
+
+
+
+  
 
 
 

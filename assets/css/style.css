@@ -1240,4 +1240,174 @@ span {
 }
 .blog_area__title::first-letter {
   text-transform: uppercase;
+}
+.blog_area__single-blog {
+  background-color: #fff;
+  border-radius: 18px;
+}
+.blog_area__image {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.blog_area__blog-content {
+  padding: 25px;
+}
+.blog_area__cat-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  color: #666565;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.blog_area__cat-name i {
+  font-size: 7px;
+  color: #666565;
+}
+.blog_area__blog-title {
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 700;
+  margin: 12px 0;
+  color: #282943;
+}
+.blog_area__btn-link {
+  color: #84A17D;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.blog_area__date {
+  font-size: 17px;
+  text-transform: capitalize;
+  color: #666565;
+}
+
+/* 15. Blog CSS Start */
+.footer_area {
+  background-color: #153C3C;
+}
+.footer_area__desc {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-bottom: 22px;
+  max-width: 316px;
+}
+.footer_area__link {
+  color: #333;
+  padding: 3px;
+  transition: 0.3s;
+}
+.footer_area__link i {
+  background-color: #fff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 7px;
+}
+.footer_area__link i:hover {
+  background-color: #84A17D;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer_area__footer-newsletter-form {
+  position: relative;
+}
+
+.footer_area__footer-newsletter-form input {
+  padding: 18px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer_area__footer-newsletter-form input:focus {
+  outline: none;
+}
+
+.footer_area__footer-newsletter-form button {
+  position: absolute;
+  background-color: #84A17D;
+  padding: 8px 23px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  right: 8px;
+  top: 9px;
+  transition: 0.3s;
+}
+
+.footer_area__footer-newsletter-form button:hover {
+  background-color: #153C3C;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer_area__footer-newsletter-form {
+  position: relative;
+}
+
+.footer_area__footer-newsletter-form input {
+  padding: 18px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer_area__footer-newsletter-form input:focus {
+  outline: none;
+}
+
+.footer_area__footer-newsletter-form button {
+  position: absolute;
+  background-color: #84A17D;
+  padding: 8px 23px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  right: 8px;
+  top: 9px;
+  transition: 0.3s;
+}
+
+.footer_area__footer-newsletter-form button:hover {
+  background-color: #153C3C;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer_area__footer-title {
+  color: #fff;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 38px;
+}
+
+.footer_area__menu-list li a {
+  color: #fff;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.footer_area__menu-item {
+  padding: 7px 0;
+}
+
+.footer_area__footer-news-desc {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 337px;
+}
+
+.footer_area__footer-newsletter-form {
+  margin-top: 41px;
 }/*# sourceMappingURL=style.css.map */
