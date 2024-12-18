@@ -125,3 +125,34 @@
     margin-top: 41px;
   }
 
+  .footer_area__footer-social {
+	margin-top: 36px;
+}
+
+
+  .footer_copyright {
+	background-color: #153C3C;
+}
+
+
+.footer_copyright__footer-content {
+	border-top: 1px solid #dddddd61;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+  .footer_copyright__author {
+    color: #fff;
+  }
+  .footer_copyright__privacy-menu-list {
+    display: flex;
+    gap:40px;
+  }
+  .footer_copyright__privacy-menu-list li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
