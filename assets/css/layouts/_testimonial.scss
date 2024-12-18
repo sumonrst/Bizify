@@ -28,67 +28,64 @@
         display: inline-block;
         margin-top: 33px;
     }
-    
-
-
-
+    &__img {
+        height: 570px;
+        width: 90%;
+        border-radius: 20px;
+    }
+    &__single-testimonial {
+        display: flex;
+        flex-direction: column;
+        height: 570px;
+        justify-content: center;
+    }
+    &__testimonial-content {
+        color: #fff;
+    }
+    &__testimonial-content i {
+        font-size: 60px;
+        color: #fff;
+    }
+    &__testimonial-p {
+        font-size: 23px;
+        line-height: 34px;
+        margin: 30px 0;
+    }
+    &__testimonial-rating {
+        margin-top: 35px;
+    }
+    &__review-rating-list {
+        display: flex;
+        gap: 10px;
+        color: #ECB014;
+    }
+    &__client-name {
+        color: #fff;
+        font-size: 27px;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-top: 12px;
+    }
+    &__client-desig {
+        display: block;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin-top: 7px;
+    }
 
 
 }
 
 
 
-.testimonial_area__single-testimonial {
-	display: flex;
-	flex-direction: column;
-	height: 570px;
-	justify-content: center;
-}
 
-.testimonial_area__img {
-    height: 570px;
-    width: 90%;
-    border-radius: 20px;
-  }
+
+
 
   
 
-  .testimonial_area__testimonial-content i {
-    font-size: 60px;
-    color: #fff;
-  }
-  .testimonial_area__testimonial-content {
-    color: #fff;
-  }
 
 
 
-
-  .testimonial_area__testimonial-p {
-    font-size: 23px;
-    line-height: 34px;
-    margin: 30px 0;
-  }
-  .testimonial_area__review-rating-list {
-    display: flex;
-    gap: 10px;
-    color: #ECB014;
-  }
-  .testimonial_area__testimonial-rating {
-    margin-top: 35px;
-  }
-  .testimonial_area__client-name {
-    color: #fff;
-    font-size: 27px;
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-top: 12px;
-  }
-  .testimonial_area__client-desig {
-    display: block;
-    font-size: 15px;
-    text-transform: capitalize;
-    margin-top: 7px;
-  }
 
 

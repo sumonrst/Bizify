@@ -1,0 +1,62 @@
+
+/* 13. Testimonial CSS Start */ 
+.faq_area{
+    &__title {
+        line-height: 66px;
+        font-size: 60px;
+        color: $title-black;
+        font-weight: 800;
+    }
+    &__title::first-letter {
+        text-transform: uppercase;
+    }
+
+
+
+}
+
+
+
+
+
+
+.faq_area__single-col {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .faq_area__single-col input {
+    width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  .faq_area__single-col textarea {
+	width: 100%;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #ddd;
+    height: 150px;
+}
+
+
+.faq_area__faq-wrapper {
+    background-color: #F4F5F6;
+    padding: 35px;
+    border-radius: 18px;
+  }
+  .faq_area__contact-form {
+    background-color: #fff;
+    padding: 63px 30px;
+    border-radius: 18px;
+  }
+  .faq_area__contact-title {
+    font-size: 28px;
+    text-transform: capitalize;
+  }
+
+
+
