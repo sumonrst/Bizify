@@ -16,6 +16,17 @@ $(document).ready(function() {
         infinite: true,
         slidesToShow: 3,
     });
+    $('.testimonial-outer').slick({
+        dots: true,
+        infinite: true,
+        arrows: false,
+        infinite: true,
+        slidesToShow: 3,
+        centerMode: true,         // Enables center alignment for the active slide
+        centerPadding: '0',       // Removes extra padding around the slides
+        focusOnSelect: true,      // Clicking on a slide makes it active
+        variableWidth: true 
+    });
     $('.testimonial').slick({
         dots: true,
         arrows: true,
