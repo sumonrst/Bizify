@@ -1215,7 +1215,7 @@ span {
   border-right: 0;
   border-left: 0;
   border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .faq_area__single-col textarea {
@@ -1231,6 +1231,17 @@ span {
   background-color: #F4F5F6;
   padding: 35px;
   border-radius: 18px;
+}
+
+.faq_area__contact-heading {
+  margin-bottom: 40px;
+}
+
+.faq_area__contact-desc {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #828282;
+  font-weight: normal;
 }
 
 .faq_area__contact-form {
@@ -1305,6 +1316,38 @@ span {
   border: 0px !important;
   border-radius: 10px !important;
   margin-top: 13px !important;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 398px;
+  margin-top: 400px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.slick-dots li button {
+  text-indent: -9999px;
+  width: 8px;
+  border-radius: 50%;
+  height: 8px;
+  border: 0;
+  background-color: #3F4E50;
+}
+
+.slick-dots li {
+  padding: 4px;
+  border-radius: 50%;
+  line-height: 0px;
+}
+
+.slick-dots li.slick-active {
+  border: 2px solid #333;
 }
 
 /* 14. Blog CSS Start */

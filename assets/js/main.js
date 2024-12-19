@@ -11,6 +11,7 @@ text.innerHTML = text.innerText
 $(document).ready(function() {
     $('.services_area__services').slick({
         dots: true,
+        autoplay: true,
         arrows: false,
         infinite: true,
         slidesToShow: 3,
