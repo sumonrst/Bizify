@@ -4,6 +4,9 @@
 
 .footer_area {
 	background-color: #153C3C;
+    &__footer-social {
+      margin-top: 36px;
+    }
     &__desc {
         color: #fff;
         font-size: 17px;
@@ -29,130 +32,127 @@
         color: #fff;
         transition: .3s;
     }
+    &__footer-title {
+      color: #fff;
+      font-size: 24px;
+      text-transform: capitalize;
+      margin-bottom: 38px;
+    }
+    &__menu-item {
+      padding: 7px 0;
+    }
+    &__menu-list li a {
+      color: #fff;
+      font-size: 17px;
+      text-transform: capitalize;
+      font-weight: 400;
+    }
+    &__footer-newsletter-form {
+      position: relative;
+    }
+    &__footer-newsletter-form input {
+      padding: 18px;
+      width: 100%;
+      border-radius: 8px;
+      border: none;
+    }
+    &__footer-newsletter-form input:focus {
+      outline: none;
+    }
+    &__footer-newsletter-form {
+      position: relative;
+    }
+    &__footer-newsletter-form input {
+      padding: 18px;
+      width: 100%;
+      border-radius: 8px;
+      border: none;
+    }
+    &__footer-newsletter-form input:focus {
+      outline: none;
+    }
+    &__footer-newsletter-form {
+      margin-top: 41px;
+    }
+    &__footer-newsletter-form button {
+      position: absolute;
+      background-color: #84A17D;
+      padding: 8px 23px;
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 700;
+      right: 8px;
+      top: 9px;
+      transition: .3s;
+    }
+    &__footer-newsletter-form button:hover {
+      background-color: #153C3C;
+      color: #fff;
+      transition: .3s;
+    }
+    &__footer-newsletter-form button:hover {
+      background-color: #153C3C;
+      color: #fff;
+      transition: .3s;
+    }
+    &__footer-news-desc {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 400;
+      max-width: 337px;
+    }
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-.footer_area__footer-newsletter-form {
-    position: relative;
-  }
-  .footer_area__footer-newsletter-form input {
-    padding: 18px;
-    width: 100%;
-    border-radius: 8px;
-    border: none;
-  }
-  .footer_area__footer-newsletter-form input:focus {
-    outline: none;
-  }
-  .footer_area__footer-newsletter-form button {
-    position: absolute;
-    background-color: #84A17D;
-    padding: 8px 23px;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 700;
-    right: 8px;
-    top: 9px;
-    transition: .3s;
-  }
-  .footer_area__footer-newsletter-form button:hover {
-    background-color: #153C3C;
-    color: #fff;
-    transition: .3s;
-  }
-  
-.footer_area__footer-newsletter-form {
-    position: relative;
-  }
-  .footer_area__footer-newsletter-form input {
-    padding: 18px;
-    width: 100%;
-    border-radius: 8px;
-    border: none;
-  }
-  .footer_area__footer-newsletter-form input:focus {
-    outline: none;
-  }
-  .footer_area__footer-newsletter-form button {
-    position: absolute;
-    background-color: #84A17D;
-    padding: 8px 23px;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 700;
-    right: 8px;
-    top: 9px;
-    transition: .3s;
-  }
-  .footer_area__footer-newsletter-form button:hover {
-    background-color: #153C3C;
-    color: #fff;
-    transition: .3s;
-  }
-  .footer_area__footer-title {
-    color: #fff;
-    font-size: 24px;
-    text-transform: capitalize;
-    margin-bottom: 38px;
-  }
-  .footer_area__menu-list li a {
-    color: #fff;
-    font-size: 17px;
-    text-transform: capitalize;
-    font-weight: 400;
-  }
-
-  .footer_area__menu-item {
-    padding: 7px 0;
-  }
-  .footer_area__footer-news-desc {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
-    max-width: 337px;
-  }
-  .footer_area__footer-newsletter-form {
-    margin-top: 41px;
-  }
-
-  .footer_area__footer-social {
-	margin-top: 36px;
-}
-
-
-  .footer_copyright {
-	background-color: #153C3C;
-}
-
-
-.footer_copyright__footer-content {
-	border-top: 1px solid #dddddd61;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-  .footer_copyright__author {
+.footer_copyright{
+  background-color: #153C3C;
+  &__author {
     color: #fff;
   }
-  .footer_copyright__privacy-menu-list {
+  &__footer-content {
+    border-top: 1px solid #dddddd61;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &__privacy-menu-list {
     display: flex;
     gap:40px;
   }
-  .footer_copyright__privacy-menu-list li a {
+  &__privacy-menu-list li a {
     color: #fff;
     text-transform: capitalize;
     font-size: 18px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 

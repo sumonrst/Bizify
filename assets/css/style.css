@@ -318,6 +318,12 @@ span {
 }
 
 /* 1. Header Top CSS Start */
+.headertop {
+  transition: 1s ease;
+}
+.headertop__link {
+  color: #fff;
+}
 .headertop__addres {
   display: flex;
   gap: 40px;
@@ -352,6 +358,22 @@ span {
   left: 0;
   right: 0;
   z-index: 99;
+  padding: 12px 0;
+}
+
+.header__area.padding-remove {
+  padding: 0px;
+  transition: 1s ease;
+}
+
+.headermiddle {
+  padding: 12px 0;
+  transition: 1s ease;
+}
+
+.headermiddle.headermiddle-remove {
+  padding: 0px;
+  transition: 1s ease;
 }
 
 .search-box {
@@ -417,6 +439,11 @@ span {
   border-radius: 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+
+.headertop.hide-header-top {
+  display: none;
+  transition: 1s ease;
 }
 
 /* 2. Hero CSS Start */
@@ -1291,6 +1318,9 @@ span {
 .footer_area {
   background-color: #153C3C;
 }
+.footer_area__footer-social {
+  margin-top: 36px;
+}
 .footer_area__desc {
   color: #fff;
   font-size: 17px;
@@ -1316,91 +1346,69 @@ span {
   color: #fff;
   transition: 0.3s;
 }
-
-.footer_area__footer-newsletter-form {
-  position: relative;
-}
-
-.footer_area__footer-newsletter-form input {
-  padding: 18px;
-  width: 100%;
-  border-radius: 8px;
-  border: none;
-}
-
-.footer_area__footer-newsletter-form input:focus {
-  outline: none;
-}
-
-.footer_area__footer-newsletter-form button {
-  position: absolute;
-  background-color: #84A17D;
-  padding: 8px 23px;
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: 700;
-  right: 8px;
-  top: 9px;
-  transition: 0.3s;
-}
-
-.footer_area__footer-newsletter-form button:hover {
-  background-color: #153C3C;
-  color: #fff;
-  transition: 0.3s;
-}
-
-.footer_area__footer-newsletter-form {
-  position: relative;
-}
-
-.footer_area__footer-newsletter-form input {
-  padding: 18px;
-  width: 100%;
-  border-radius: 8px;
-  border: none;
-}
-
-.footer_area__footer-newsletter-form input:focus {
-  outline: none;
-}
-
-.footer_area__footer-newsletter-form button {
-  position: absolute;
-  background-color: #84A17D;
-  padding: 8px 23px;
-  color: #fff;
-  text-transform: capitalize;
-  font-weight: 700;
-  right: 8px;
-  top: 9px;
-  transition: 0.3s;
-}
-
-.footer_area__footer-newsletter-form button:hover {
-  background-color: #153C3C;
-  color: #fff;
-  transition: 0.3s;
-}
-
 .footer_area__footer-title {
   color: #fff;
   font-size: 24px;
   text-transform: capitalize;
   margin-bottom: 38px;
 }
-
+.footer_area__menu-item {
+  padding: 7px 0;
+}
 .footer_area__menu-list li a {
   color: #fff;
   font-size: 17px;
   text-transform: capitalize;
   font-weight: 400;
 }
-
-.footer_area__menu-item {
-  padding: 7px 0;
+.footer_area__footer-newsletter-form {
+  position: relative;
 }
-
+.footer_area__footer-newsletter-form input {
+  padding: 18px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+.footer_area__footer-newsletter-form input:focus {
+  outline: none;
+}
+.footer_area__footer-newsletter-form {
+  position: relative;
+}
+.footer_area__footer-newsletter-form input {
+  padding: 18px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+}
+.footer_area__footer-newsletter-form input:focus {
+  outline: none;
+}
+.footer_area__footer-newsletter-form {
+  margin-top: 41px;
+}
+.footer_area__footer-newsletter-form button {
+  position: absolute;
+  background-color: #84A17D;
+  padding: 8px 23px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+  right: 8px;
+  top: 9px;
+  transition: 0.3s;
+}
+.footer_area__footer-newsletter-form button:hover {
+  background-color: #153C3C;
+  color: #fff;
+  transition: 0.3s;
+}
+.footer_area__footer-newsletter-form button:hover {
+  background-color: #153C3C;
+  color: #fff;
+  transition: 0.3s;
+}
 .footer_area__footer-news-desc {
   color: #fff;
   font-size: 18px;
@@ -1408,18 +1416,12 @@ span {
   max-width: 337px;
 }
 
-.footer_area__footer-newsletter-form {
-  margin-top: 41px;
-}
-
-.footer_area__footer-social {
-  margin-top: 36px;
-}
-
 .footer_copyright {
   background-color: #153C3C;
 }
-
+.footer_copyright__author {
+  color: #fff;
+}
 .footer_copyright__footer-content {
   border-top: 1px solid rgba(221, 221, 221, 0.3803921569);
   display: flex;
@@ -1428,16 +1430,10 @@ span {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-.footer_copyright__author {
-  color: #fff;
-}
-
 .footer_copyright__privacy-menu-list {
   display: flex;
   gap: 40px;
 }
-
 .footer_copyright__privacy-menu-list li a {
   color: #fff;
   text-transform: capitalize;
