@@ -5,10 +5,23 @@
     width: 600px; /* Width for the active slide */
     transition: 1s ease;
 }
-// .slider .slick-current 
-// .inner-title:not(.slick-current ){
-//     display: none;
-// }
+
+
+
+
+.slick-slide:not(.slick-current) .inner-title {
+    display: none !important;
+}
+.slick-slide:not(.slick-current) .test-icon {
+    display: none !important;
+}
+.slick-slide:not(.slick-current) h5 {
+    display: none !important;
+}
+
+.test_testimonial_area {
+	background-color: #F4F5F6;
+}
 
 .testimonial-inner-content {
 	background-size: cover;
@@ -57,12 +70,19 @@
   .test-icon i {
     font-size: 30px;
     color: #fff;
+    rotate: -50deg;
+  }
+
+  .test-icon {
     position: absolute;
-    top: 50%;
+    top: 39%;
     left: 50%;
-    background-color: tomato;
-    width: 50px;
-    height: 50px;
+    transform: translateX(-50%);
+    background-color: #84A17D;
+    width: 80px;
+    height: 80px;
     text-align: center;
-    line-height: 50px;
+    line-height: 86px;
+    border-radius: 10px;
+    transition: 1s ease;
   }

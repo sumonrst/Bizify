@@ -1,3 +1,5 @@
+
+/* Video section text rotate animation */ 
 const text = document.querySelector(".text");
 text.innerHTML = text.innerText
 	.split("")
@@ -16,6 +18,17 @@ $(document).ready(function() {
         infinite: true,
         slidesToShow: 3,
     });
+    $('.testimonial_area__client-outer').slick({
+        dots: false,
+        autoplay: true,
+        arrows: true,
+        infinite: true,
+        slidesToShow: 1,
+    });
+
+
+
+
     $('.testimonial-outer').slick({
         dots: true,
         infinite: true,
@@ -27,12 +40,22 @@ $(document).ready(function() {
         focusOnSelect: true,      // Clicking on a slide makes it active
         variableWidth: true 
     });
-    $('.testimonial').slick({
-        dots: true,
-        arrows: true,
-        infinite: true,
-        slidesToShow: 2,
+
+    $('.testimonial-outer').on('afterChange', function () {
+        $('.inner-title').removeClass('hidden'); // Show h4 for all slides
+        $('.slick-slide:not(.slick-current) .inner-title').addClass('hidden'); // Hide h4 for inactive slides
     });
+    $('.testimonial-outer').on('afterChange', function () {
+        $('.test-icon').removeClass('hidden'); // Show h4 for all slides
+        $('.slick-slide:not(.slick-current) .test-icon').addClass('hidden'); // Hide h4 for inactive slides
+    });
+    $('.testimonial-outer').on('afterChange', function () {
+        $('h5').removeClass('hidden'); // Show h4 for all slides
+        $('.slick-slide:not(.slick-current) h5').addClass('hidden'); // Hide h4 for inactive slides
+    });
+
+
+    
 });
 
 /* Header Sticky Menu Code here */ 

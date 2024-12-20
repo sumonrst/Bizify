@@ -1147,49 +1147,38 @@ span {
   display: inline-block;
   margin-top: 33px;
 }
-.testimonial_area__img {
-  height: 570px;
-  width: 90%;
-  border-radius: 20px;
-}
-.testimonial_area__single-testimonial {
-  display: flex;
-  flex-direction: column;
-  height: 570px;
-  justify-content: center;
-}
-.testimonial_area__testimonial-content {
-  color: #fff;
-}
-.testimonial_area__testimonial-content i {
-  font-size: 60px;
-  color: #fff;
-}
-.testimonial_area__testimonial-p {
-  font-size: 23px;
-  line-height: 34px;
-  margin: 30px 0;
-}
-.testimonial_area__testimonial-rating {
-  margin-top: 35px;
-}
-.testimonial_area__review-rating-list {
+
+.testimonial_area__rating-list {
   display: flex;
   gap: 10px;
   color: #ECB014;
 }
-.testimonial_area__client-name {
+
+.testimonial_area__single-client {
   color: #fff;
-  font-size: 27px;
-  text-transform: capitalize;
-  font-weight: 600;
-  margin-top: 12px;
 }
-.testimonial_area__client-desig {
-  display: block;
-  font-size: 15px;
+
+.testimonial_area__calient-name {
+  font-size: 26px;
   text-transform: capitalize;
-  margin-top: 7px;
+  font-weight: 700;
+}
+
+.testimonial_area__rating-designation {
+  display: block;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.testimonial_area__description {
+  font-size: 23px;
+  line-height: 33px;
+  max-width: 605px;
+}
+
+.testimonial_area__client-content i {
+  font-size: 45px;
 }
 
 /* 13. Testimonial CSS Start */
@@ -1539,6 +1528,22 @@ span {
   transition: 1s ease;
 }
 
+.slick-slide:not(.slick-current) .inner-title {
+  display: none !important;
+}
+
+.slick-slide:not(.slick-current) .test-icon {
+  display: none !important;
+}
+
+.slick-slide:not(.slick-current) h5 {
+  display: none !important;
+}
+
+.test_testimonial_area {
+  background-color: #F4F5F6;
+}
+
 .testimonial-inner-content {
   background-size: cover;
   background-position: center;
@@ -1590,12 +1595,19 @@ span {
 .test-icon i {
   font-size: 30px;
   color: #fff;
+  rotate: -50deg;
+}
+
+.test-icon {
   position: absolute;
-  top: 50%;
+  top: 39%;
   left: 50%;
-  background-color: tomato;
-  width: 50px;
-  height: 50px;
+  transform: translateX(-50%);
+  background-color: #84A17D;
+  width: 80px;
+  height: 80px;
   text-align: center;
-  line-height: 50px;
+  line-height: 86px;
+  border-radius: 10px;
+  transition: 1s ease;
 }/*# sourceMappingURL=style.css.map */
