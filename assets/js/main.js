@@ -11,6 +11,15 @@ text.innerHTML = text.innerText
 
 
 $(document).ready(function() {
+
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        items : 1,
+        nav:true,
+        dots:false,
+        navText: [$('.am-next'),$('.am-prev')]
+    });
+
     $('.services_area__services').slick({
         dots: true,
         autoplay: true,
@@ -18,15 +27,14 @@ $(document).ready(function() {
         infinite: true,
         slidesToShow: 3,
     });
-    $('.testimonial_area__client-outer').slick({
+
+    $('.testimonial_area__client-outerh').slick({
         dots: false,
         autoplay: true,
         arrows: true,
         infinite: true,
         slidesToShow: 1,
     });
-
-
 
 
     $('.testimonial-outer').slick({
@@ -38,7 +46,7 @@ $(document).ready(function() {
         centerMode: true,         // Enables center alignment for the active slide
         centerPadding: '0',       // Removes extra padding around the slides
         focusOnSelect: true,      // Clicking on a slide makes it active
-        variableWidth: true 
+        variableWidth: true, 
     });
 
     $('.testimonial-outer').on('afterChange', function () {
@@ -81,3 +89,4 @@ $(window).scroll(function() {
         $('.header__area').removeClass('padding-remove');
     }
 });
+
