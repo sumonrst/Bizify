@@ -12,6 +12,10 @@
         font-size: 66px;
         font-weight: 800;
         text-transform: capitalize;
+        @include min-xs{
+            font-size: 52px;
+            line-height: 60px;
+        }
         @include min-md{
             font-size:57px;
         }
@@ -34,6 +38,9 @@
         border-radius: 9px;
         left: -44px;
         z-index: -1;
+        @include min-xs{
+            display: none;
+        }
         @include min-lg{
             left: -20px;
             bottom: -24px;

@@ -48,12 +48,33 @@ $(document).ready(function() {
         dots: true,
         infinite: true,
         arrows: false,
-        infinite: true,
         slidesToShow: 3,
         centerMode: true,         // Enables center alignment for the active slide
         centerPadding: '0',       // Removes extra padding around the slides
         focusOnSelect: true,      // Clicking on a slide makes it active
         variableWidth: true, 
+        autoplay:true,
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false,
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
     });
 
     $('.testimonial-outer').on('afterChange', function () {

@@ -31,3 +31,13 @@ $grid_sm_brackpoint: 576px;
         @content;
     }
 }
+@mixin min-sm {
+    @media ( min-width:$grid_md_brackpoint ) and (  max-width:$grid_md_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-xs {
+    @media ( max-width:$grid_sm_brackpoint ){ 
+        @content;
+    }
+}

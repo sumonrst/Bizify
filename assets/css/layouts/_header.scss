@@ -2,6 +2,9 @@
 
 .headertop{
   transition:1s ease;
+  @include min-xs{
+    display: none;
+  }
   &__link {
     color: #fff;
   }
@@ -34,6 +37,9 @@
       padding: 15px 28px;
       border-radius: 10px;
       border: 1px solid #84A17D;
+      @include min-xs{
+        display: none;
+      }
   }
 }
 
@@ -61,6 +67,9 @@
     width: fit-content;
     height: fit-content;
     position: relative;
+    @include min-xs{
+      display: none;
+    }
   }
   .input-search{
     height: 50px;
