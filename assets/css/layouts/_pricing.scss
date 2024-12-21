@@ -36,12 +36,18 @@
         font-size: 25px;
         font-weight: 700;
         text-transform: capitalize;
+        @include min-lg{
+            font-size: 20px;
+        }
     }
       &__pricing-top-sub-title {
         font-weight: normal;
         font-size: 17px;
         color: #4f4d4d;
         display: block;
+        @include min-lg{
+            font-size:15px;
+        }
     }
     &__pricing-top-value {
         text-align: center;
@@ -51,12 +57,18 @@
         font-size: 15px;
         text-transform: capitalize;
         margin-top: 5px;
+        @include min-lg{
+            font-size:12px;
+        }
     }
     &__value-title {
         background-color: #fff;
         padding: 22px 18px 12px 18px;
         border-radius: 8px;
         transition: .3s;
+        @include min-lg{
+            font-size:30px;
+        }
     }
     &__single-pricing:hover .pricing_area__value-title {
         background-color: $primary;
@@ -72,6 +84,9 @@
     &__pricing-item {
         font-size: 19px;
         color: #3e3e3e;
+        @include min-lg{
+            font-size:15px;
+        }
     }
     &__pricing-item i {
         margin-right: 13px;
@@ -87,6 +102,9 @@
         border-radius: 7px;
         border: 1px solid #172426;
         transition: .3s;
+        @include min-lg{
+            font-size:15px;
+        }
     }
     &__single-pricing:hover .pricing_area__pricing-btn-link {
         background-color: $primary;

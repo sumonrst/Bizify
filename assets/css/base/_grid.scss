@@ -1,0 +1,33 @@
+
+$grid_xxl_brackpoint: 1400px;
+$grid_xl_brackpoint: 1200px;
+$grid_lg_brackpoint: 992px;
+$grid_md_brackpoint: 768px;
+$grid_sm_brackpoint: 576px;
+
+// @media (min-width: 991.98px) and (max-width: 1199.98px) {
+//     .col-lg{
+
+//     }
+//     .hero_right_content h2 {
+//         color: #fff;
+//         font-size: 86px;
+//         line-height: 105px;
+//         font-weight: 800;
+//     }
+// }
+
+
+
+
+/* Responsive Mixing */ 
+@mixin min-lg {
+    @media ( min-width:$grid_lg_brackpoint ) and (  max-width:$grid_xl_brackpoint){ 
+        @content;
+    }
+}
+@mixin min-md {
+    @media ( min-width:$grid_md_brackpoint ) and (  max-width:$grid_lg_brackpoint){ 
+        @content;
+    }
+}

@@ -14,6 +14,10 @@
             font-size: 92px;
             line-height: 105px;
             font-weight: 800;
+            @include min-lg{
+                font-size: 70px;
+                line-height:84px;
+            }
         }
         p {
             font-size: 18px;
@@ -65,6 +69,9 @@
             img {
                 height: 608px;
                 border-radius: 17px;
+                @include min-lg{
+                    height:530px;
+                }
             }
         }
         .single-customer {

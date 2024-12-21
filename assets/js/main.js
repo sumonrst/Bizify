@@ -12,7 +12,14 @@ text.innerHTML = text.innerText
 
 $(document).ready(function() {
 
-    $('.owl-carousel').owlCarousel({
+    // $('.owl-carousel222').owlCarousel({
+    //     loop:true,
+    //     items : 1,
+    //     nav:true,
+    //     dots:false,
+    //     navText: [$('.am-next'),$('.am-prev')]
+    // });
+    $('.bizify_clients').owlCarousel({
         loop:true,
         items : 1,
         nav:true,

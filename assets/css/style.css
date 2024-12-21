@@ -317,6 +317,7 @@ span {
   display: inline-block;
 }
 
+/* Responsive Mixing */
 /* 1. Header Top CSS Start */
 .headertop {
   transition: 1s ease;
@@ -465,6 +466,12 @@ span {
   line-height: 105px;
   font-weight: 800;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header_hero .hero_right_content h2 {
+    font-size: 70px;
+    line-height: 84px;
+  }
+}
 .header_hero .hero_right_content p {
   font-size: 18px;
   max-width: 636px;
@@ -513,6 +520,11 @@ span {
   height: 608px;
   border-radius: 17px;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header_hero .hero_left_image .hero_image img {
+    height: 530px;
+  }
+}
 .header_hero .hero_left_image .single-customer {
   display: flex;
   background-color: #fff;
@@ -560,6 +572,12 @@ span {
   padding: 23px;
   border-radius: 7px;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .what-we-do-area .our-work .single-work .single-icon i {
+    font-size: 30px;
+    padding: 16px;
+  }
+}
 .what-we-do-area .our-work .single-work h4 {
   font-size: 22px;
   color: #fff;
@@ -585,6 +603,11 @@ span {
   font-weight: 800;
   text-transform: capitalize;
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .about__area__title {
+    font-size: 57px;
+  }
+}
 .about__area__desc {
   font-size: 20px;
   color: #5c5959;
@@ -603,6 +626,12 @@ span {
   border-radius: 9px;
   left: -44px;
   z-index: -1;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about__area__about-image:before {
+    left: -20px;
+    bottom: -24px;
+  }
 }
 .about__area__about-img {
   border-radius: 17px;
@@ -671,6 +700,13 @@ span {
   line-height: 66px;
   font-size: 60px;
   color: #282943;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .services_area__title {
+    font-size: 57px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
 }
 
 .services_area__services {
@@ -805,6 +841,12 @@ span {
   bottom: -51px;
   border-radius: 10px;
   z-index: -1;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .our_project_area__project-image:before {
+    right: -16px;
+    bottom: -19px;
+  }
 }
 
 /* 7. Brand CSS Start */
@@ -1060,11 +1102,21 @@ span {
   font-weight: 700;
   text-transform: capitalize;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing_area__pricing-top-title {
+    font-size: 20px;
+  }
+}
 .pricing_area__pricing-top-sub-title {
   font-weight: normal;
   font-size: 17px;
   color: #4f4d4d;
   display: block;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing_area__pricing-top-sub-title {
+    font-size: 15px;
+  }
 }
 .pricing_area__pricing-top-value {
   text-align: center;
@@ -1075,11 +1127,21 @@ span {
   text-transform: capitalize;
   margin-top: 5px;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing_area__value-sub-title {
+    font-size: 12px;
+  }
+}
 .pricing_area__value-title {
   background-color: #fff;
   padding: 22px 18px 12px 18px;
   border-radius: 8px;
   transition: 0.3s;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing_area__value-title {
+    font-size: 30px;
+  }
 }
 .pricing_area__single-pricing:hover .pricing_area__value-title {
   background-color: #84A17D;
@@ -1096,6 +1158,11 @@ span {
   font-size: 19px;
   color: #3e3e3e;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing_area__pricing-item {
+    font-size: 15px;
+  }
+}
 .pricing_area__pricing-item i {
   margin-right: 13px;
   font-size: 23px;
@@ -1110,6 +1177,11 @@ span {
   border-radius: 7px;
   border: 1px solid #172426;
   transition: 0.3s;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing_area__pricing-btn-link {
+    font-size: 15px;
+  }
 }
 .pricing_area__single-pricing:hover .pricing_area__pricing-btn-link {
   background-color: #84A17D;
@@ -1148,69 +1220,81 @@ span {
   margin-top: 33px;
 }
 
-.testimonial_area__client-img {
-  width: 502px;
-  height: 574px;
-  border-radius: 15px;
+.bizify_clients {
+  color: #fff;
 }
 
-.testimonial_area__rating-list {
+.bizify_client_review_list {
   display: flex;
   gap: 10px;
   color: #ECB014;
 }
 
-.testimonial_area__single-client {
-  color: #fff;
-  height: 575px;
+.bizify_client_name {
+  font-size: 27px;
+  padding-top: 10px;
+}
+
+.bizify_single_content i {
+  font-size: 56px;
+}
+
+.bizify_client_designation {
+  display: block;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.bizify_single_content {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.bizify_single_content p {
+  font-size: 24px;
+  padding: 22px 0;
+  width: 100%;
+  line-height: 33px;
+}
+
+.single_bizify_clients {
+  flex-basis: 50%;
+}
+
+.bizify_clients-content {
+  height: 545px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 10% !important;
+}
+
+.bizify_test {
+  display: flex;
+  justify-content: space-between;
   position: relative;
 }
 
-.owl-nav span {
-  font-size: 66px;
-  color: #fff;
-  position: absolute;
-  right: 0;
-  bottom: 25%;
+.single_bizify_clients img {
+  width: 560px !important;
+  height: 545px;
+  border-radius: 20px;
 }
-
-.testimonial_area__calient-name {
-  font-size: 26px;
-  text-transform: capitalize;
-  font-weight: 700;
-}
-
-.testimonial_area__rating-designation {
-  display: block;
-  font-weight: normal;
-  text-transform: capitalize;
-  font-size: 18px;
-}
-
-.testimonial_area__description {
-  font-size: 23px;
-  line-height: 33px;
-  max-width: 605px;
-}
-
-.testimonial_area__client-content i {
-  font-size: 45px;
+@media (min-width: 992px) and (max-width: 1200px) {
+  .single_bizify_clients img {
+    width: 496px !important;
+  }
 }
 
 .owl-nav .owl-prev {
   position: absolute;
-  left: 62%;
-  bottom: 19%;
+  top: 77%;
+  right: 68px;
 }
 
 .owl-nav .owl-next {
   position: absolute;
-  left: 72%;
-  bottom: 19%;
+  top: 77%;
+  right: 0;
 }
 
 .owl-nav button {
@@ -1218,35 +1302,47 @@ span {
   border: 0;
 }
 
-.owl-nav .owl-next .am-prev i {
-  background-color: #fff;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  border-radius: 50%;
-  font-size: 23px;
-  transition: 0.3s;
+.owl-nav .am-next i {
+  color: #333;
+  font-size: 29px;
 }
 
-.owl-nav .owl-next .am-prev i:hover {
+.owl-nav .am-next i {
+  color: #333;
+  font-size: 20px;
+  background-color: #fff;
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.owl-nav .am-next i:hover {
   color: #fff;
   background-color: #84A17D;
   transition: 0.3s;
 }
 
-.owl-nav .owl-prev .am-next i {
-  background-color: #fff;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  text-align: center;
-  border-radius: 50%;
-  font-size: 23px;
-  transition: 0.3s;
+.owl-nav .am-prev i {
+  color: #333;
+  font-size: 29px;
 }
 
-.owl-nav .owl-prev .am-next i:hover {
+.owl-nav .am-prev i {
+  color: #333;
+  font-size: 20px;
+  background-color: #fff;
+  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.owl-nav .am-prev i:hover {
   color: #fff;
   background-color: #84A17D;
   transition: 0.3s;
@@ -1291,6 +1387,7 @@ span {
   background-color: #F4F5F6;
   padding: 35px;
   border-radius: 18px;
+  margin-top: 40px;
 }
 
 .faq_area__contact-heading {
@@ -1314,6 +1411,11 @@ span {
   font-size: 28px;
   text-transform: capitalize;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .faq_area__contact-title {
+    font-size: 25px;
+  }
+}
 
 .faq_area__accro-list {
   display: flex;
@@ -1328,6 +1430,11 @@ span {
   font-size: 22px;
   font-weight: 700;
   border: 0px !important;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .accordion-button {
+    font-size: 18px;
+  }
 }
 
 .accordion-header .accordion-button:not(.collapsed) {
@@ -1360,6 +1467,11 @@ span {
 
 .faq_area__faq-desc {
   font-size: 18px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .faq_area__faq-desc {
+    font-size: 16px;
+  }
 }
 
 .faq_area__faq-section {
@@ -1426,6 +1538,11 @@ span {
   background-color: #fff;
   border-radius: 18px;
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .blog_area__single-blog {
+    margin-bottom: 22px;
+  }
+}
 .blog_area__image {
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
@@ -1452,6 +1569,11 @@ span {
   font-weight: 700;
   margin: 12px 0;
   color: #282943;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .blog_area__blog-title {
+    font-size: 22px;
+  }
 }
 .blog_area__btn-link {
   color: #84A17D;
@@ -1597,6 +1719,11 @@ span {
 .slider .slick-current .testimonial-inner-content {
   width: 600px; /* Width for the active slide */
   transition: 1s ease;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slider .slick-current .testimonial-inner-content {
+    width: 500px;
+  }
 }
 
 .slick-slide:not(.slick-current) .inner-title {

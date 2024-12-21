@@ -16,6 +16,10 @@
                     background-color: #fff;
                     padding: 23px;
                     border-radius:7px;
+                    @include min-lg{
+                        font-size: 30px;
+                        padding: 16px;
+                    }
                 }
             }
             h4 {

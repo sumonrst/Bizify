@@ -14,6 +14,9 @@
     &__single-blog {
         background-color: #fff;
         border-radius: 18px;
+        @include min-lg{
+            margin-bottom: 22px;
+        }
     }
     &__image {
         border-top-left-radius: 18px;
@@ -41,6 +44,9 @@
         font-weight: 700;
         margin: 12px 0;
         color: #282943;
+        @include min-lg{
+            font-size: 22px;
+        }
     }
     &__btn-link {
         color: #84A17D;

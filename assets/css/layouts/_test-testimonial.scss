@@ -4,6 +4,9 @@
 .slider .slick-current .testimonial-inner-content {
     width: 600px; /* Width for the active slide */
     transition: 1s ease;
+    @include min-lg{
+      width: 500px;
+    }
 }
 
 
