@@ -7,6 +7,10 @@
         font-size: 60px;
         color: #282943;
         font-weight: 800;
+        @include min-xs{
+            font-size: 52px;
+            line-height: 60px;
+        }
     }
     &__title::first-letter {
         text-transform: uppercase;
@@ -19,6 +23,9 @@
         flex-direction: column;
         gap: 43px;
         transition: .3s;
+        @include min-xs{
+            margin-bottom: 30px;
+        }
     }
     &__single-pricing:hover {
         background: linear-gradient(130deg, transparent 65%, $primary 100%);
@@ -36,6 +43,9 @@
         font-size: 25px;
         font-weight: 700;
         text-transform: capitalize;
+        @include min-xs{
+            font-size: 20px;
+        }
         @include min-lg{
             font-size: 20px;
         }
@@ -45,6 +55,9 @@
         font-size: 17px;
         color: #4f4d4d;
         display: block;
+        @include min-xs{
+            font-size:15px;
+        }
         @include min-lg{
             font-size:15px;
         }
@@ -80,10 +93,16 @@
         flex-direction: column;
         gap: 17px;
         padding: 0;
+        @include min-xs{
+            gap: 8px;
+        }
     }
     &__pricing-item {
         font-size: 19px;
         color: #3e3e3e;
+        @include min-xs{
+            font-size:15px;
+        }
         @include min-lg{
             font-size:15px;
         }
@@ -102,6 +121,9 @@
         border-radius: 7px;
         border: 1px solid #172426;
         transition: .3s;
+        @include min-xs{
+            font-size:15px;
+        }
         @include min-lg{
             font-size:15px;
         }
