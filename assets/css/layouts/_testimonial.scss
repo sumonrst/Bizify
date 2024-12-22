@@ -7,6 +7,10 @@
         font-size: 60px;
         color: $title-white;
         font-weight: 800;
+        @include min-xs{
+          font-size: 52px;
+          line-height: 60px;
+        }
     }
     &__title::first-letter {
         text-transform: uppercase;
@@ -49,6 +53,9 @@
 .bizify_client_name {
   font-size: 27px;
   padding-top: 10px;
+  @include min-xs{
+    font-size: 22px;
+  }
 }
 .bizify_single_content i {
   font-size: 56px;
@@ -67,6 +74,9 @@
 	padding: 22px 0;
 	width: 100%;
 	line-height: 33px;
+  @include min-xs{
+    font-size: 20px;
+  }
 }
 .single_bizify_clients {
   flex-basis: 50%;
@@ -81,11 +91,19 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  @include min-xs{
+    flex-direction: column;
+    gap: 50px;
+  }
 }
 .single_bizify_clients img {
   width: 560px !important;
   height: 545px;
   border-radius: 20px;
+  @include min-xs{
+    width: 100% !important;
+    height:100% !important;
+  }
   @include min-lg{
     width: 496px !important;
   }
@@ -95,11 +113,17 @@
   position: absolute;
   top: 77%;
   right:68px;
+  @include min-xs{
+    display: none;
+  }
 }
 .owl-nav .owl-next {
   position: absolute;
   top: 77%;
   right: 0;
+  @include min-xs{
+    display: none;
+  }
 }
 .owl-nav button {
 	background-color: transparent;

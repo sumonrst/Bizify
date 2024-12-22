@@ -1359,6 +1359,12 @@ span {
   color: #fff;
   font-weight: 800;
 }
+@media (max-width: 576px) {
+  .testimonial_area__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
 .testimonial_area__title::first-letter {
   text-transform: uppercase;
 }
@@ -1394,6 +1400,11 @@ span {
   font-size: 27px;
   padding-top: 10px;
 }
+@media (max-width: 576px) {
+  .bizify_client_name {
+    font-size: 22px;
+  }
+}
 
 .bizify_single_content i {
   font-size: 56px;
@@ -1416,6 +1427,11 @@ span {
   width: 100%;
   line-height: 33px;
 }
+@media (max-width: 576px) {
+  .bizify_single_content p {
+    font-size: 20px;
+  }
+}
 
 .single_bizify_clients {
   flex-basis: 50%;
@@ -1433,11 +1449,23 @@ span {
   justify-content: space-between;
   position: relative;
 }
+@media (max-width: 576px) {
+  .bizify_test {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
 
 .single_bizify_clients img {
   width: 560px !important;
   height: 545px;
   border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .single_bizify_clients img {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .single_bizify_clients img {
@@ -1450,11 +1478,21 @@ span {
   top: 77%;
   right: 68px;
 }
+@media (max-width: 576px) {
+  .owl-nav .owl-prev {
+    display: none;
+  }
+}
 
 .owl-nav .owl-next {
   position: absolute;
   top: 77%;
   right: 0;
+}
+@media (max-width: 576px) {
+  .owl-nav .owl-next {
+    display: none;
+  }
 }
 
 .owl-nav button {
@@ -1515,6 +1553,12 @@ span {
   color: #282943;
   font-weight: 800;
 }
+@media (max-width: 576px) {
+  .faq_area__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
 .faq_area__title::first-letter {
   text-transform: uppercase;
 }
@@ -1523,6 +1567,11 @@ span {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+@media (max-width: 576px) {
+  .faq_area__single-col {
+    flex-direction: column;
+  }
 }
 
 .faq_area__single-col input {
@@ -1534,6 +1583,10 @@ span {
   padding: 20px 0;
 }
 
+.faq_area__single-col input:focus {
+  outline: none;
+}
+
 .faq_area__single-col textarea {
   width: 100%;
   border-top: 0;
@@ -1543,11 +1596,20 @@ span {
   height: 150px;
 }
 
+.faq_area__single-col textarea:focus {
+  outline: none;
+}
+
 .faq_area__faq-wrapper {
   background-color: #F4F5F6;
   padding: 35px;
   border-radius: 18px;
   margin-top: 40px;
+}
+@media (max-width: 576px) {
+  .faq_area__faq-wrapper {
+    padding: 0px;
+  }
 }
 
 .faq_area__contact-heading {
@@ -1590,6 +1652,12 @@ span {
   font-size: 22px;
   font-weight: 700;
   border: 0px !important;
+}
+@media (max-width: 576px) {
+  .accordion-button {
+    font-size: 12px;
+    background-color: transparent !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .accordion-button {
