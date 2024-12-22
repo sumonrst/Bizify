@@ -117,6 +117,9 @@
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    @include min-xs{
+      flex-direction: column;
+    }
   }
   &__privacy-menu-list {
     display: flex;
@@ -126,6 +129,9 @@
     color: #fff;
     text-transform: capitalize;
     font-size: 18px;
+    @include min-xs{
+      font-size: 16px;
+    }
   }
 }
 

@@ -135,6 +135,9 @@
 
 .faq_area__faq-desc {
 	font-size: 18px;
+  @include min-xs{
+    font-size: 13px;
+  }
   @include min-lg{
     font-size: 16px;
   }

@@ -7,6 +7,10 @@
         font-size: 60px;
         color: #282943;
         font-weight: 800;
+        @include min-xs{
+            font-size: 52px;
+            line-height: 60px;
+        }
     }
     &__title::first-letter {
         text-transform: uppercase;
@@ -14,6 +18,9 @@
     &__single-blog {
         background-color: #fff;
         border-radius: 18px;
+        @include min-xs{
+            margin-bottom:30px;
+        }
         @include min-lg{
             margin-bottom: 22px;
         }
@@ -44,6 +51,9 @@
         font-weight: 700;
         margin: 12px 0;
         color: #282943;
+        @include min-xs{
+            font-size:19px;
+        }
         @include min-lg{
             font-size: 22px;
         }

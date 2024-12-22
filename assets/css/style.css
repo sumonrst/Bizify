@@ -769,6 +769,8 @@ span {
   line-height: 66px;
   font-size: 60px;
   color: #282943;
+  max-width: 580px;
+  margin: 0 auto;
 }
 @media (max-width: 576px) {
   .services_area__title {
@@ -1696,6 +1698,11 @@ span {
 .faq_area__faq-desc {
   font-size: 18px;
 }
+@media (max-width: 576px) {
+  .faq_area__faq-desc {
+    font-size: 13px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
   .faq_area__faq-desc {
     font-size: 16px;
@@ -1759,12 +1766,23 @@ span {
   color: #282943;
   font-weight: 800;
 }
+@media (max-width: 576px) {
+  .blog_area__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
 .blog_area__title::first-letter {
   text-transform: uppercase;
 }
 .blog_area__single-blog {
   background-color: #fff;
   border-radius: 18px;
+}
+@media (max-width: 576px) {
+  .blog_area__single-blog {
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .blog_area__single-blog {
@@ -1797,6 +1815,11 @@ span {
   font-weight: 700;
   margin: 12px 0;
   color: #282943;
+}
+@media (max-width: 576px) {
+  .blog_area__blog-title {
+    font-size: 19px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .blog_area__blog-title {
@@ -1934,6 +1957,11 @@ span {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+@media (max-width: 576px) {
+  .footer_copyright__footer-content {
+    flex-direction: column;
+  }
+}
 .footer_copyright__privacy-menu-list {
   display: flex;
   gap: 40px;
@@ -1942,6 +1970,11 @@ span {
   color: #fff;
   text-transform: capitalize;
   font-size: 18px;
+}
+@media (max-width: 576px) {
+  .footer_copyright__privacy-menu-list li a {
+    font-size: 16px;
+  }
 }
 
 .slider .slick-current .testimonial-inner-content {

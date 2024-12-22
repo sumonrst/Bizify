@@ -12,13 +12,6 @@ text.innerHTML = text.innerText
 
 $(document).ready(function() {
 
-    // $('.owl-carousel222').owlCarousel({
-    //     loop:true,
-    //     items : 1,
-    //     nav:true,
-    //     dots:false,
-    //     navText: [$('.am-next'),$('.am-prev')]
-    // });
     $('.bizify_clients').owlCarousel({
         loop:true,
         items : 1,
@@ -33,6 +26,27 @@ $(document).ready(function() {
         arrows: false,
         infinite: true,
         slidesToShow: 3,
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: false,
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
     });
 
     $('.testimonial_area__client-outerh').slick({
@@ -66,7 +80,7 @@ $(document).ready(function() {
             {
               breakpoint: 576,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 centerMode: false,
               }

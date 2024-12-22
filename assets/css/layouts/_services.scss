@@ -9,6 +9,8 @@
     line-height: 66px;
     font-size: 60px;
     color: #282943;
+    max-width: 580px;
+    margin: 0 auto;
     @include min-xs{
       font-size: 52px;
       line-height: 60px;
