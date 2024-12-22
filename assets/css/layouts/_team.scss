@@ -6,6 +6,10 @@
         font-size: 60px;
         color: #282943;
         font-weight: 800;
+        @include min-xs{
+            font-size: 52px;
+            line-height: 60px;
+        }
     }
     &__title::first-letter {
         text-transform: uppercase;
@@ -16,6 +20,9 @@
         position: relative;
         overflow: hidden;
         transition: 1s ease;
+        @include min-xs{
+            margin-bottom: 20px;
+        }
     }
     &__team:hover .team_area__team-content {
         margin-bottom: 0;

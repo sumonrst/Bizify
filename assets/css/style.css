@@ -975,6 +975,12 @@ span {
   text-transform: capitalize;
   font-weight: 800;
 }
+@media (max-width: 576px) {
+  .latest_project__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
 
 .latest_project__single-latest-project {
   background-size: cover;
@@ -1051,6 +1057,12 @@ span {
   color: #282943;
   font-weight: 800;
 }
+@media (max-width: 576px) {
+  .team_area__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
 .team_area__title::first-letter {
   text-transform: uppercase;
 }
@@ -1060,6 +1072,11 @@ span {
   position: relative;
   overflow: hidden;
   transition: 1s ease;
+}
+@media (max-width: 576px) {
+  .team_area__team {
+    margin-bottom: 20px;
+  }
 }
 .team_area__team:hover .team_area__team-content {
   margin-bottom: 0;

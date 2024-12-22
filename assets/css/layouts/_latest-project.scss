@@ -11,6 +11,10 @@
 	color: #282943;
 	text-transform: capitalize;
 	font-weight: 800;
+  @include min-xs{
+    font-size: 52px;
+    line-height: 60px;
+  }
 }
 
 
