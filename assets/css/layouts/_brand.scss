@@ -2,8 +2,12 @@
 
 .brand_area{
     &__brand-gallery {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(6, auto);
         align-items: center;
+        justify-content: space-between;
+        @include min-xs{
+            grid-template-columns: repeat(2, auto);
+        }
     }
 }

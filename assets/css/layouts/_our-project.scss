@@ -1,12 +1,19 @@
 /* 5. Our Project CSS Start */ 
 
 .our_project_area{
+    @include min-xs{
+        padding-bottom: 0px;
+    }
     &__title {
         font-size: 66px;
         text-transform: capitalize;
         font-weight: 900;
         color: #282943;
         line-height: 75px;
+        @include min-xs{
+            font-size: 52px;
+            line-height: 60px;
+        }
     }
     &__des {
         font-size: 20px;
@@ -23,12 +30,15 @@
         display: flex;
         gap: 24px;
         align-items: center;
+            @include min-xs{
+                flex-direction: column;
+            }
     }
     &__single-project-item i {
         background-color: #84A17D;
         color: #fff;
         font-size: 37px;
-        width: 98px;
+        width: 139px;
         height: 100px;
         text-align: center;
         line-height: 100px;
@@ -38,6 +48,9 @@
         font-size: 23px;
         font-weight: 800;
         text-transform: capitalize;
+        @include min-xs{
+            text-align: center;
+        }
     }
     &__item-desc {
         display: block;
@@ -54,6 +67,9 @@
     &__project-image {
         position: relative;
         z-index: 2;
+        @include min-xs{
+            display: none;
+        }
     }
     &__project-image:before {
         position: absolute;

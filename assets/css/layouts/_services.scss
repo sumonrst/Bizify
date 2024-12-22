@@ -9,6 +9,10 @@
     line-height: 66px;
     font-size: 60px;
     color: #282943;
+    @include min-xs{
+      font-size: 52px;
+      line-height: 60px;
+    }
     @include min-md{
       font-size: 57px;
       max-width: 600px;

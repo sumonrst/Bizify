@@ -770,6 +770,12 @@ span {
   font-size: 60px;
   color: #282943;
 }
+@media (max-width: 576px) {
+  .services_area__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
 @media (min-width: 768px) and (max-width: 992px) {
   .services_area__title {
     font-size: 57px;
@@ -846,12 +852,23 @@ span {
 }
 
 /* 5. Our Project CSS Start */
+@media (max-width: 576px) {
+  .our_project_area {
+    padding-bottom: 0px;
+  }
+}
 .our_project_area__title {
   font-size: 66px;
   text-transform: capitalize;
   font-weight: 900;
   color: #282943;
   line-height: 75px;
+}
+@media (max-width: 576px) {
+  .our_project_area__title {
+    font-size: 52px;
+    line-height: 60px;
+  }
 }
 .our_project_area__des {
   font-size: 20px;
@@ -869,11 +886,16 @@ span {
   gap: 24px;
   align-items: center;
 }
+@media (max-width: 576px) {
+  .our_project_area__single-project-item {
+    flex-direction: column;
+  }
+}
 .our_project_area__single-project-item i {
   background-color: #84A17D;
   color: #fff;
   font-size: 37px;
-  width: 98px;
+  width: 139px;
   height: 100px;
   text-align: center;
   line-height: 100px;
@@ -883,6 +905,11 @@ span {
   font-size: 23px;
   font-weight: 800;
   text-transform: capitalize;
+}
+@media (max-width: 576px) {
+  .our_project_area__item-title {
+    text-align: center;
+  }
 }
 .our_project_area__item-desc {
   display: block;
@@ -899,6 +926,11 @@ span {
 .our_project_area__project-image {
   position: relative;
   z-index: 2;
+}
+@media (max-width: 576px) {
+  .our_project_area__project-image {
+    display: none;
+  }
 }
 .our_project_area__project-image:before {
   position: absolute;
@@ -920,9 +952,15 @@ span {
 
 /* 7. Brand CSS Start */
 .brand_area__brand-gallery {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
   align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .brand_area__brand-gallery {
+    grid-template-columns: repeat(2, auto);
+  }
 }
 
 /* 8. Latest Project CSS Start */
