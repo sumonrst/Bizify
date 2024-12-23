@@ -1,59 +1,79 @@
 
 /* 1. Header CSS Start */ 
 
+.header-fw-area{
+  &__header-fw-top {
+    background-color: #84A17D;
+    color: #fff;
+    padding: 10px 0px;
+    @include min-xs{
+      display: none;
+    }
+  }
+  &__header-fw-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__header-fw-time-content {
+    display: flex;
+    align-items: center;
+  }
+  &__header-fw-time-content i {
+    margin-right: 10px;
+  }
+  &__time {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  &__time-text {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: normal;
+  }
+  &__header-fw-contact {
+    display: flex;
+    gap: 46px;
+  }
+  &__contact-phone {
+    font-size: 17px;
+    font-weight: normal;
+  }
+  &__contact-email {
+    font-size: 17px;
+    font-weight: normal;
+  }
+  &__header-fw-single-contact i {
+    margin-right: 6px;
+  }
+  &__middle-menu ul li{
+    margin-left: 20px;
+  }
+  &__middle-menu ul li a {
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #333;
+  }
 
 
 
-.header-fw-area__header-fw-top {
-	background-color: #84A17D;
-	color: #fff;
-	padding: 10px 0px;
-}
-.header-fw-area__header-fw-time-content i {
-	margin-right: 10px;
-}
-.header-fw-area__time-text {
-	font-size: 17px;
-	text-transform: capitalize;
-	font-weight: normal;
+
 }
 
 
-.header-fw-top-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-fw-area__header-fw-time-content {
-  display: flex;
-  align-items: center;
-}
-.header-fw-area__time {
-  font-size: 15px;
-  font-weight: normal;
-}
-.header-fw-area__header-fw-contact {
-  display: flex;
-  gap: 46px;
-}
-.header-fw-area__contact-phone {
-  font-size: 17px;
-  font-weight: normal;
-}
-.header-fw-area__contact-email {
-  font-size: 17px;
-  font-weight: normal;
-}
-.header-fw-area__header-fw-single-contact i {
-  margin-right: 6px;
-}
 
-.header-fw-area__middle-menu ul li a {
-	font-size: 19px;
-	font-weight: 600;
-	text-transform: capitalize;
-	color: #333;
-}
-.header-fw-area__middle-menu ul li{
-  margin-left: 20px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

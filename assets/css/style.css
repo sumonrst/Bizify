@@ -335,6 +335,16 @@ span {
   opacity: 0.95;
 }
 
+/* Section Title CSS Start */
+.service-title-2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 67px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 800;
+}
+
 /* Responsive Mixing */
 /* 1. Header CSS Start */
 .header-fw-area__header-fw-top {
@@ -342,61 +352,55 @@ span {
   color: #fff;
   padding: 10px 0px;
 }
-
+@media (max-width: 576px) {
+  .header-fw-area__header-fw-top {
+    display: none;
+  }
+}
+.header-fw-area__header-fw-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-fw-area__header-fw-time-content {
+  display: flex;
+  align-items: center;
+}
 .header-fw-area__header-fw-time-content i {
   margin-right: 10px;
 }
-
+.header-fw-area__time {
+  font-size: 15px;
+  font-weight: normal;
+}
 .header-fw-area__time-text {
   font-size: 17px;
   text-transform: capitalize;
   font-weight: normal;
 }
-
-.header-fw-top-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-fw-area__header-fw-time-content {
-  display: flex;
-  align-items: center;
-}
-
-.header-fw-area__time {
-  font-size: 15px;
-  font-weight: normal;
-}
-
 .header-fw-area__header-fw-contact {
   display: flex;
   gap: 46px;
 }
-
 .header-fw-area__contact-phone {
   font-size: 17px;
   font-weight: normal;
 }
-
 .header-fw-area__contact-email {
   font-size: 17px;
   font-weight: normal;
 }
-
 .header-fw-area__header-fw-single-contact i {
   margin-right: 6px;
 }
-
+.header-fw-area__middle-menu ul li {
+  margin-left: 20px;
+}
 .header-fw-area__middle-menu ul li a {
   font-size: 19px;
   font-weight: 600;
   text-transform: capitalize;
   color: #333;
-}
-
-.header-fw-area__middle-menu ul li {
-  margin-left: 20px;
 }
 
 /* 1. Header Top CSS Start */
@@ -2153,21 +2157,24 @@ span {
 }
 
 /* 2. Slider CSS Start */
-.slider-fw-area__single-slider {
+.banner_fw_area__single-slider {
   height: 85vh;
   background-size: cover;
   background-position: center;
 }
-
-.slider-fw-area__slider-content {
+.banner_fw_area__slider-content {
   height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
 }
-
-.slider-fw-area__slider-title {
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_fw_area__slider-content {
+    align-items: center;
+  }
+}
+.banner_fw_area__slider-title {
   color: #fff;
   font-size: 81px;
   font-weight: 900;
@@ -2175,42 +2182,37 @@ span {
   max-width: 450px;
   line-height: 95px;
 }
-
-.slider-fw-area__slider-desc {
+@media (max-width: 576px) {
+  .banner_fw_area__slider-title {
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_fw_area__slider-title {
+    font-size: 70px;
+    max-width: 640px;
+    line-height: 83px;
+    text-align: center;
+  }
+}
+.banner_fw_area__slider-desc {
   color: #fff;
   font-size: 18px;
   max-width: 562px;
 }
-
-.nav-btn.slider-prev i {
-  color: #fff;
-  font-size: 22px;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
-  border-radius: 10px;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  line-height: 60px;
-}
-
-.owl-nav .owl-prev {
+.banner_fw_area .owl-nav .owl-prev {
   position: absolute;
   left: -86%;
   top: 50%;
   transform: translateY(-50%);
 }
-
-.owl-nav .owl-next {
-  position: absolute;
-  top: 50%;
-  right: 4%;
-  transform: translateY(-50%);
+@media (min-width: 768px) and (max-width: 992px) {
+  .banner_fw_area .owl-nav .owl-prev {
+    left: -77%;
+  }
 }
-
-.nav-btn.slider-next i {
+.banner_fw_area__nav-btn.slider-prev i {
   color: #fff;
   font-size: 22px;
   background: rgba(255, 255, 255, 0.2);
@@ -2222,4 +2224,23 @@ span {
   height: 60px;
   text-align: center;
   line-height: 60px;
+}
+.banner_fw_area__nav-btn.slider-next i {
+  color: #fff;
+  font-size: 22px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.banner_fw_area .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  transform: translateY(-50%);
 }/*# sourceMappingURL=style.css.map */
