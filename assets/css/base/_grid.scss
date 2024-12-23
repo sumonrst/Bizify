@@ -32,7 +32,7 @@ $grid_sm_brackpoint: 576px;
     }
 }
 @mixin min-sm {
-    @media ( min-width:$grid_md_brackpoint ) and (  max-width:$grid_md_brackpoint){ 
+    @media ( min-width:$grid_sm_brackpoint ) and (  max-width:$grid_md_brackpoint){ 
         @content;
     }
 }

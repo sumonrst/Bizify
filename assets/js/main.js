@@ -20,41 +20,13 @@ $(document).ready(function() {
         navText: [$('.am-next'),$('.am-prev')]
     });
 
+
     $('.services_area__services').slick({
         dots: true,
         autoplay: true,
         arrows: false,
         infinite: true,
         slidesToShow: 3,
-        responsive: [
-            {
-              breakpoint: 992,
-              settings: {
-                arrows: false,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              }
-            },
-            {
-              breakpoint: 576,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                centerMode: false,
-              }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-          ]
-    });
-
-    $('.testimonial_area__client-outerh').slick({
-        dots: false,
-        autoplay: true,
-        arrows: true,
-        infinite: true,
-        slidesToShow: 1,
     });
 
 

@@ -1,0 +1,77 @@
+
+/* 2. Slider CSS Start */ 
+
+
+
+
+
+.slider-fw-area__single-slider {
+	height: 85vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.slider-fw-area__slider-content {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .slider-fw-area__slider-title {
+    color: #fff;
+    font-size: 81px;
+    font-weight: 900;
+    text-transform: capitalize;
+    max-width: 450px;
+    line-height: 95px;
+  }
+  .slider-fw-area__slider-desc {
+    color: #fff;
+    font-size: 18px;
+    max-width: 562px;
+  }
+
+
+
+
+  
+.nav-btn.slider-prev i {
+    color: #fff;
+    font-size: 22px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .owl-nav .owl-prev {
+    position: absolute;
+    left: -86%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .owl-nav .owl-next {
+	position: absolute;
+	top: 50%;
+	right: 4%;
+	transform: translateY(-50%);
+}
+.nav-btn.slider-next i {
+    color: #fff;
+    font-size: 22px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }

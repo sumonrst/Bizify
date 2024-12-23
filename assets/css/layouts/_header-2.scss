@@ -1,0 +1,123 @@
+/* 1. Header Top CSS Start */ 
+
+.headertop{
+  transition:1s ease;
+  @include min-xs{
+    display: none;
+  }
+  &__link {
+    color: #fff;
+  }
+    &__addres {
+        display: flex;
+        gap: 40px;
+    }
+    &__social-list {
+        display: flex;
+        justify-content: end;
+        gap: 24px;
+    }
+    &__menu-bg {
+        background-color: tomato !important;
+        border-radius: 10px;
+    }
+}
+
+.heade-menu-area{
+    .menu-bg {
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .btn-primary {
+      color: #fff;
+      font-size: 18px;
+      text-transform: capitalize;
+      font-weight: 600;
+      background-color: #84A17D;
+      padding: 15px 28px;
+      border-radius: 10px;
+      border: 1px solid #84A17D;
+      @include min-xs{
+        display: none;
+      }
+  }
+}
+
+.header__area {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 99;
+  padding: 12px 0;
+}
+.header__area.padding-remove{
+  padding: 0px;
+  transition: 1s ease;
+}
+.headermiddle {
+	padding: 12px 0;
+  transition: 1s ease;
+}
+.headermiddle.headermiddle-remove{
+  padding:0px;
+  transition: 1s ease;
+}
+
+.search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    @include min-xs{
+      display: none;
+    }
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    padding-right: 40px;
+    background-color: transparent !important;
+  }
+  .input-search::placeholder{
+    color:#000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    background-color:transparent !important;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    border-bottom:1px solid rgba(23, 23, 23, 0.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+
+  .headertop.hide-header-top {
+    display: none;
+    transition: 1s ease;
+  }

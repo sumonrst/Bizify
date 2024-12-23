@@ -1,123 +1,59 @@
-/* 1. Header Top CSS Start */ 
 
-.headertop{
-  transition:1s ease;
-  @include min-xs{
-    display: none;
-  }
-  &__link {
-    color: #fff;
-  }
-    &__addres {
-        display: flex;
-        gap: 40px;
-    }
-    &__social-list {
-        display: flex;
-        justify-content: end;
-        gap: 24px;
-    }
-    &__menu-bg {
-        background-color: tomato !important;
-        border-radius: 10px;
-    }
+/* 1. Header CSS Start */ 
+
+
+
+
+.header-fw-area__header-fw-top {
+	background-color: #84A17D;
+	color: #fff;
+	padding: 10px 0px;
+}
+.header-fw-area__header-fw-time-content i {
+	margin-right: 10px;
+}
+.header-fw-area__time-text {
+	font-size: 17px;
+	text-transform: capitalize;
+	font-weight: normal;
 }
 
-.heade-menu-area{
-    .menu-bg {
-        background-color: #fff;
-        border-radius: 10px;
-    }
-    .btn-primary {
-      color: #fff;
-      font-size: 18px;
-      text-transform: capitalize;
-      font-weight: 600;
-      background-color: #84A17D;
-      padding: 15px 28px;
-      border-radius: 10px;
-      border: 1px solid #84A17D;
-      @include min-xs{
-        display: none;
-      }
-  }
+
+.header-fw-top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-fw-area__header-fw-time-content {
+  display: flex;
+  align-items: center;
+}
+.header-fw-area__time {
+  font-size: 15px;
+  font-weight: normal;
+}
+.header-fw-area__header-fw-contact {
+  display: flex;
+  gap: 46px;
+}
+.header-fw-area__contact-phone {
+  font-size: 17px;
+  font-weight: normal;
+}
+.header-fw-area__contact-email {
+  font-size: 17px;
+  font-weight: normal;
+}
+.header-fw-area__header-fw-single-contact i {
+  margin-right: 6px;
 }
 
-.header__area {
-	position: fixed;
-	left: 0;
-	right: 0;
-	z-index: 99;
-  padding: 12px 0;
+.header-fw-area__middle-menu ul li a {
+	font-size: 19px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #333;
 }
-.header__area.padding-remove{
-  padding: 0px;
-  transition: 1s ease;
+.header-fw-area__middle-menu ul li{
+  margin-left: 20px;
 }
-.headermiddle {
-	padding: 12px 0;
-  transition: 1s ease;
-}
-.headermiddle.headermiddle-remove{
-  padding:0px;
-  transition: 1s ease;
-}
-
-.search-box{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    @include min-xs{
-      display: none;
-    }
-  }
-  .input-search{
-    height: 50px;
-    width: 50px;
-    border-style: none;
-    padding: 10px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    outline: none;
-    border-radius: 25px;
-    transition: all .5s ease-in-out;
-    padding-right: 40px;
-    background-color: transparent !important;
-  }
-  .input-search::placeholder{
-    color:#000;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 100;
-  }
-  .btn-search{
-    width: 50px;
-    height: 50px;
-    border-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50%;
-    position: absolute;
-    right: 0px;
-    background-color:transparent !important;
-    pointer-events: painted;  
-  }
-  .btn-search:focus ~ .input-search{
-    width: 300px;
-    border-radius: 0px;
-    border-bottom:1px solid rgba(23, 23, 23, 0.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-  }
-  .input-search:focus{
-    width: 300px;
-    border-radius: 0px;
-    border-bottom:1px solid rgba(255,255,255,.5);
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-  }
-
-  .headertop.hide-header-top {
-    display: none;
-    transition: 1s ease;
-  }
