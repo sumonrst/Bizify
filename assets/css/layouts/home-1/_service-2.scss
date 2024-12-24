@@ -1,0 +1,21 @@
+
+
+
+
+.service_2_area__service-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 22px;
+  }
+  .service_2_area__single-service-2 {
+    background-color: #F4F5F6;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  .service_2_area__service-2-title {
+    font-size: 21px;
+  }
+  .service_2_area__single-service-2.item-5 {
+	grid-column: 1 / 3;
+}
