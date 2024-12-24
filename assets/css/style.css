@@ -338,11 +338,13 @@ span {
 /* Section Title CSS Start Common */
 .service-title-2 {
   text-align: center;
-  text-transform: capitalize;
   font-size: 67px;
   max-width: 700px;
   margin: 0 auto;
   font-weight: 800;
+}
+.service-title-2:first-letter {
+  text-transform: capitalize;
 }
 
 /* Responsive Mixing */
@@ -2334,4 +2336,72 @@ span {
   padding: 11px 25px;
   border-radius: 6px;
   font-weight: 700;
+}
+
+/* 4. About Insurance CSS Start */
+.insurance_area {
+  background-color: #F4F5F6;
+}
+.insurance_area__insurance-content {
+  display: grid;
+  grid-template-columns: auto;
+  align-content: center;
+  height: 600px;
+  gap: 25px;
+}
+.insurance_area__insurance-content .service-title-2 {
+  text-align: left;
+}
+.insurance_area__insurance-desc {
+  font-size: 18px;
+  padding: 10px 0;
+  width: 541px;
+}
+.insurance_area__insurance-singel-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+.insurance_area__insurance-single-number {
+  font-size: 50px;
+}
+.insurance_area__insurance-single-title {
+  display: block;
+  margin-top: 21px;
+  text-transform: capitalize;
+  color: #3F4E50;
+}
+.insurance_area__insurance-img {
+  border-radius: 17px;
+  height: 600px;
+}
+.insurance_area__insurance-btn .btn-primary:hover {
+  background-color: #9db497;
+  transition: 0.3s;
+  border: 1px solid #9db497;
+}
+
+/* 5. About Insurance CSS Start */
+.project_2_area__single-project-2-img {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  border: 2px dashed #84A17D;
+  padding: 8px;
+}
+.project_2_area__single-project-2-content {
+  margin-top: 32px;
+}
+.project_2_area__single-project-2-title {
+  font-size: 27px;
+  text-transform: capitalize;
+  color: #172426;
+  font-weight: 700;
+}
+.project_2_area__single-project-2-desc {
+  max-width: 327px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 31px;
+  color: #5a5858;
 }/*# sourceMappingURL=style.css.map */

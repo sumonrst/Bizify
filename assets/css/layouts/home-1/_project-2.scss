@@ -1,0 +1,35 @@
+
+/* 5. About Insurance CSS Start */ 
+
+.project_2_area{
+    &__single-project-2-img {
+        border-radius: 50%;
+        width: 230px;
+        height: 230px;
+        border: 2px dashed #84A17D;
+        padding: 8px;
+    }
+    &__single-project-2-content {
+        margin-top: 32px;
+    }
+    &__single-project-2-title {
+        font-size: 27px;
+        text-transform: capitalize;
+        color: #172426;
+        font-weight: 700;
+    }
+    &__single-project-2-desc {
+        max-width: 327px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 31px;
+        color: #5a5858;
+    }
+}
+
+
+
+
+
+
+
